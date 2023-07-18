@@ -25,7 +25,10 @@
     font-size: 2.8rem;
 }
 .g{
-    color: palevioletred;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .ancor{
     display: flex;
@@ -64,6 +67,62 @@
     font-size: 1.125rem;
     color: #3C354F;
 }
+/* main section */
+.goat_section{
+   
+    text-align: center;
+   margin: 0 auto;
+}
+
+.h3_1{
+    color: #0B0223;
+   text-align: center;
+   font-size: 3rem;
+}
+.h3_2{
+   text-align: center;
+   font-size: 5.8rem;
+   padding-top: 0px;
+   width: 700px;
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.btn_section{
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    padding-left: 200px;
+}
+.btn1{
+    color: #FFFFFF;
+    padding: 21px 40px;
+    width: 156px;
+    height: 65px;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.btn2{
+    color: #FFFFFF;
+    padding: 21px 40px;
+    width: 156px;
+    height: 65px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    text-align: center;
+}
+.goat_section p{
+    color: #534C64;
+text-align: center;
+font-size: 1.25rem;
+padding: auto 210px;
+}
+.goat{
+    display: flex;
+}
+.goat_img{
+    margin-right: 240px;
+}
 
 /* mobile view */
 @media screen and (max-width: 450px) {
@@ -75,5 +134,8 @@
     }
     .logo_section{
        flex-direction: column;
+    }
+    .goat{
+        flex-direction: column;
     }
 }
