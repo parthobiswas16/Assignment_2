@@ -1,0 +1,79 @@
+/* work sence font*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap'); 
+
+
+/* header section */
+.logo_section{
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding-left: 240px;
+    display: flex;
+}
+.logo{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    width: 50%;
+}
+.logo_img{
+    width: 80px;
+    height: 40px;
+    
+}
+.logo_title{
+    font-size: 2.8rem;
+}
+.g{
+    color: palevioletred;
+}
+.ancor{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-right: 240px;
+}
+.ancor a{
+   text-decoration: none;
+   
+}
+.ancor_2{
+    display: flex;
+    width: 262px;
+    height: 56px;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 8px;
+ 
+    background-color: rgb(215, 212, 212);
+    
+}
+.ancor_2 h4{
+    font-size: 1.125rem;
+    color: #66636e;
+    text-align: center;
+}
+.ancor_2 img{
+    width: 33.916px;
+    height: 24px;
+   
+}
+.ancor11{
+    font-size: 1.125rem;
+    color: #3C354F;
+}
+
+/* mobile view */
+@media screen and (max-width: 450px) {
+    header{
+        width: 100%;
+    }
+    .ancor{
+        flex-direction: column;
+    }
+    .logo_section{
+       flex-direction: column;
+    }
+}
