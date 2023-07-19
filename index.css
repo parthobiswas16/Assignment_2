@@ -190,7 +190,39 @@ padding: auto 210px;
     bottom: 300px;
     left: -150px;
 }
+.button{
+    display: flex;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    
+}
+.button_section{
+   padding: 120px 250px;
+   margin: 0 auto;
+   
+}
 
+.button111{
+    display: flex;
+     gap: 10px;
+}
+.button222{
+    display: flex;
+    padding-left: 60px;
+    gap: 10px;
+}
+.button:hover{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #F948B2;
+}
 /* mobile view */
 @media screen and (max-width: 450px) {
     
