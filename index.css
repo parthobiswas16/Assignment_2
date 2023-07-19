@@ -158,6 +158,38 @@ padding: auto 210px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.play{
+    display: flex;
+    gap: 200px;
+    padding-left: 300px;
+}
+.play_discription{
+    max-width: 340px;
+    margin: 150px auto;
+
+}
+.play_discription h3{
+    font-size: 3rem;
+    text-align: right;
+  color: #0B0223;
+}
+.play_discription p{
+    font-size: 1.25rem;
+    color: #534C64;
+    text-align: right;
+
+}
+.img1{
+    max-width: 630px;
+    height: 650px;
+}
+.img2{
+    width: 320px;
+    height: 360px;
+    position: relative;
+    bottom: 300px;
+    left: -150px;
+}
 
 /* mobile view */
 @media screen and (max-width: 450px) {
